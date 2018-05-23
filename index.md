@@ -5,10 +5,9 @@ layout: landing-page
 heading: 'Mount Zion #311'
 partners: []
 services:
-- description: Performing collaborative research and providing services to support
-    the Health Sector.
-  heading: Health
-  icon: "/uploads/2017/11/13/health.png"
+- description: Helping the local community through giving back
+  heading: Charity
+  icon: "/uploads/2017/11/14/filipe-almeida-192048 (1).jpg"
 - description: Performing collaborative research and providing services to support
     the biotechnology sector.
   heading: BioTech
