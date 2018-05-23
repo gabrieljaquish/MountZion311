@@ -18,11 +18,11 @@ fields:
 - type: text
   label: Hero Heading
   name: heading
-  default: Belkirk College
+  default: 'Mount Zion #311'
 - type: text
   name: sub_heading
   label: Hero Sub heading
-  default: Engineering and Health Sciences
+  default: Free & Accepted Masons of The State Of New York
 - type: field_group
   name: hero_button
   label: Hero Button
@@ -39,38 +39,16 @@ fields:
   description: 'Dimensions: 1200px by 580px'
   config:
     maxSize: '2'
-- name: services
-  label: Services
-  type: field_group_list
-  fields:
-  - name: heading
-    label: Heading
-    type: text
-    hidden: false
-    default: ''
-  - name: description
-    label: Description
-    type: text
-    hidden: false
-    default: ''
-  - name: icon
-    label: Icon
-    type: file
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
-- type: boolean
-  name: show_news
-  label: Show News?
-  description: Enables a news section with a twitter feed & latest posts
-- type: image_gallery
-  name: partners
-  label: Partner Logos
 - type: boolean
   name: show_staff
   label: Show Staff?
   description: Enables a staff section that lists each person in the People collection
+  default: true
+- type: boolean
+  name: show_news
+  label: Show News?
+  description: Enables a news section with a twitter feed & latest posts
+  default: true
 - name: layout
   label: Layout
   type: text
