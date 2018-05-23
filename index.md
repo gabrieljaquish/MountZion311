@@ -8,9 +8,8 @@ services:
 - description: Helping the local community through giving back
   heading: Charity
   icon: "/uploads/2017/11/14/filipe-almeida-192048 (1).jpg"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
+- description: Bringing people together
+  heading: Community
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Free and Accepted Masons of the State Of New York
 textline: Belkirk College of EngineeringOra et Labora
